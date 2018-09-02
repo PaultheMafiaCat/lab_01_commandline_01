@@ -18,6 +18,46 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
+'3D Objects'/
+ ansel/
+ AppData/
+'Application Data'@
+ BrawlhallaReplays/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+'Google Drive'/
+ Heaven/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{d8698bea-7780-11e8-9370-4ccc6a82ccd1}.TM.blf
+ NTUSER.DAT{d8698bea-7780-11e8-9370-4ccc6a82ccd1}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d8698bea-7780-11e8-9370-4ccc6a82ccd1}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
 
 
 ==========
@@ -28,18 +68,20 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
-
+No output
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
+Desktop/   Documents/ Downloads/ Dropbox/
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -50,6 +92,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
+drwxr-xr-x 1 Bear 197609   0 Jun  5  2017 'Add-in Express'/
+drwxr-xr-x 1 Bear 197609   0 Jun  2 22:15  Adobe/
 
 
 ==========
@@ -60,6 +104,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
+'Add-in Express'/
+ Adobe/
 
 
 ==========
@@ -70,7 +116,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+the previous command : ls -a Documents
 
 ==========
 6.  Type:
@@ -80,7 +126,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+$ ls -a Documents
 
 ==========
 7.  Type:
@@ -90,6 +136,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
+ls: cannot access '/Vol': No such file or directory
 
 
 ==========
@@ -100,37 +147,36 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+up arrow or <UP>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
-
+(ls) and (a)
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+(Tab)
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+ls -a
 
 ==========
 14.  Type:
@@ -140,6 +186,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
+bash: foo: command not found
 
 
 ==========
@@ -150,6 +197,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
+bash: foo: command not found
 
 
 ==========
